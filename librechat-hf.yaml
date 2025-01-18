@@ -1025,6 +1025,8 @@ endpoints:
           "openai/o1-mini-2024-09-12",
           "openai/o1-preview",
           "openai/o1-preview-2024-09-12",
+          "openai/o1",
+          "openai/o3-mini",
           "---PERPLEXITY---",
           "perplexity/llama-3-sonar-large-32k-chat",
           "perplexity/llama-3-sonar-large-32k-online",
@@ -1084,9 +1086,9 @@ endpoints:
         fetch: false
       dropParams: ["stop"]
       titleConvo: true
-      titleModel: "gpt-3.5-turbo"
+      titleModel: "meta-llama/llama-3.2-3b-instruct"
       summarize: false
-      summaryModel: "gpt-3.5-turbo"
+      summaryModel: "meta-llama/llama-3.2-3b-instruct"
       forcePrompt: false
       modelDisplayLabel: "OpenRouter"
 
